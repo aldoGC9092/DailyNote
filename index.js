@@ -3,7 +3,7 @@ var PORT = process.env.PORT || 4000;
 
 // App setup
 var app = express();
-var server = app.listen(PORT, function(){
+app.listen(PORT, function(){
     console.log(`listening for requests on port ${PORT}`);
 });
 
